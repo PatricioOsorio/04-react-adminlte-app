@@ -3,15 +3,17 @@
 // import Header from './components/Header';
 // import Aside from './components/Aside';
 import DataTable from './components/DataTable';
+import Login from './components/Login';
 
 function App() {
   return (
     <>
       <DataTable />
-      {/* <Header />
-      <Content />
-      <Footer />
-      <Aside /> */}
+      <Login />
+      {/* <Header /> */}
+      {/* <Content /> */}
+      {/* <Footer /> */}
+      {/* <Aside /> */}
     </>
   );
 }
